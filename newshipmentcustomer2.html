@@ -1,106 +1,77 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 <head>
-    <meta http-equiv=“Content-Type” content=“text/html; charset=UTF-8">
+    <meta charset="UTF-8">
     <title>NewShipment</title>
-    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
-
-<nav class=“Navbar”>
-    <div class=“collapse navbar-collapse” id=“navbarSupportedContent”>
-        <ul class=“navbar-nav mr-auto”>
-            <li class=“nav-item active”>
-                <a class=“nav-link” href=“#”>Home <span class=“sr-only”>(current)</span></a>
-            </li>
-            <li class=“nav-item”>
-                <a class=“nav-link” href=“#”>Link</a>
-            </li>
-            <li class=“nav-item dropdown”>
-                <a class=“nav-link dropdown-toggle” href=“#” id=“navbarDropdown” role=“button” data-toggle=“dropdown” aria-haspopup=“true” aria-expanded=“false”>
-                    Dropdown
-                </a>
-                <div class=“dropdown-menu” aria-labelledby=“navbarDropdown”>
-                    <a class=“dropdown-item” href=“#”>Action</a>
-                    <a class=“dropdown-item” href=“#”>Another action</a>
-                    <div class=“dropdown-divider”></div>
-                    <a class=“dropdown-item” href=“#”>Something else here</a>
-                </div>
-            </li>
-            <li class=“nav-item”>
-                <a class=“nav-link disabled” href=“#”>Disabled</a>
-            </li>
-        </ul>
-        <form class=“form-inline my-2 my-lg-0”>
-                <input class=“form-control mr-sm-2" type=“search” placeholder=“Search” aria-label=“Search”
-            <button class=“btn btn-outline-success my-2 my-sm-0" type=“submit”>Search</button>
-        </form>
-    </div>
-</nav>
-
-<div style= “float:left;“>
-    <div class=“nav flex-column nav-pills” id=“v-pills-tab” role=“tablist” aria-orientation=“vertical”>
-    <a class=“nav-link active” id=“v-pills-home-tab” data-toggle=“pill” href=“#v-pills-home” role=“tab” aria-controls=“v-pills-home” aria-selected=“true”>Home</a>
-    <a class=“nav-link” id=“v-pills-profile-tab” data-toggle=“pill” href=“#v-pills-profile” role=“tab” aria-controls=“v-pills-profile” aria-selected=“false”>Profile</a>
-    <a class=“nav-link” id=“v-pills-messages-tab” data-toggle=“pill” href=“#v-pills-messages” role=“tab” aria-controls=“v-pills-messages” aria-selected=“false”>Messages</a>
-    <a class=“nav-link” id=“v-pills-settings-tab” data-toggle=“pill” href=“#v-pills-settings” role=“tab” aria-controls=“v-pills-settings” aria-selected=“false”>Settings</a>
-</div>
-    <div class=“tab-content” id=“v-pills-tabContent”>
-        <div class=“tab-pane fade show active” id=“v-pills-home” role=“tabpanel” aria-labelledby=“v-pills-home-tab”>...</div>
-        <div class=“tab-pane fade” id=“v-pills-profile” role=“tabpanel” aria-labelledby=“v-pills-profile-tab”>...</div>
-        <div class=“tab-pane fade” id=“v-pills-messages” role=“tabpanel” aria-labelledby=“v-pills-messages-tab”>...</div>
-        <div class=“tab-pane fade” id=“v-pills-settings” role=“tabpanel” aria-labelledby=“v-pills-settings-tab”>...</div>
-    </div></div>
-
-
-<div style= “float:right;“>
-    <form>
-        <div class=“form-row”>
-            <div class=“form-group col-md-6">
-            <label for=“inputEmail4”>Email</label>
-            <input type=“email” class=“form-control” id=“inputEmail4" placeholder=“Email”>
-        </div>
-        <div class=“form-group col-md-6">
-        <label for=“inputPassword4”>Password</label>
-        <input type=“password” class=“form-control” id=“inputPassword4" placeholder=“Password”>
-</div>
-</div>
-<div class=“form-group”>
-    <label for=“inputAddress”>Address</label>
-    <input type=“text” class=“form-control” id=“inputAddress” placeholder=“1234 Main St”>
-</div>
-<div class=“form-group”>
-    <label for=“inputAddress2”>Address 2</label>
-    <input type=“text” class=“form-control” id=“inputAddress2" placeholder=“Apartment, studio, or floor”>
-</div>
-<div class=“form-row”>
-    <div class=“form-group col-md-6”>
-        <label for=“inputCity”>City</label>
-        <input type=“text” class=“form-control” id=“inputCity”>
-    </div>
-    <div class=“form-group col-md-4">
-    <label for=“inputState”>State</label>
-    <select id=“inputState” class=“form-control”>
-        <option selected>Choose...</option>
-        <option>...</option>
-    </select>
-</div>
-<div class=“form-group col-md-2">
-<label for=“inputZip”>Zip</label>
-<input type=“text” class=“form-control” id=“inputZip”>
-</div>
-</div>
-<div class=“form-group”>
-    <div class=“form-check”>
-        <input class=“form-check-input” type=“checkbox” id=“gridCheck”>
-        <label class=“form-check-label” for=“gridCheck”>
-            Check me out
-        </label>
+<!-- following grid contains user name and link to profile -->
+<div class="row mb-3">
+    <div class="col-md-4">&nbsp;</div>
+    <div class="col-md-4">&nbsp;</div>
+    <div class="col-md-4">
+        <table class="table">
+            <tr>
+                <td class="align-middle float-right">Welcome: Tara Skoglund</td>
+                <td><div class="text-center align-middle"><img src="https://iikati1066.github.io/img/profile.png" alt="profile link icon"></div></td>
+            </tr>
+        </table>
     </div>
 </div>
-<button type=“submit” class=“btn btn-primary”>Sign in</button>
-</form>
-
+<!-- layout of navigation and main page elements -->
+<div class="row mb-3">
+    <div class="col-md-3">
+        <nav class="nav flex-column nav-pills nav-fill">
+            <a class="nav-link" href="https://iikati1066.github.io/index.html">Home</a>
+            <a class="nav-link active" href="https://iikati1066.github.io/navigation.html">Navigation</a>
+            <a class="nav-link" href="#">Quick Quote</a>
+            <a class="nav-link" href="#">New Shipments</a>
+            <a class="nav-link" href="#">Track Shipments</a>
+            <a class="nav-link disabled" href="#">Reports</a>
+        </nav>
+    </div>
+    <div class="col-md-9">
+        <table class="table">
+            <tr>
+                <td>
+                    <nav class="nav nav-pills nav-fill">
+                    <a class="nav-item nav-link active" href="#">LTL</a>
+                    <a class="nav-item nav-link" href="#">Truckload</a>
+                    <a class="nav-item nav-link" href="#">Parcel</a>
+                    <a class="nav-item nav-link" href="#">International</a>
+                    </nav>
+                </td>
+            </tr>
+            <tr>
+                <td>Shipment</td>
+            </tr>
+            <tr>
+                <td class="md-form align-middle">
+                    <input placeholder="Select date" type="text" size="10px" id="date-picker-example" class="form-control input">
+                    <!-- <img src="https://iikati1066.github.io/img/calendar.png" alt="calendar icon"> -->
+                    <label for="date-picker-example"> </label>
+                </td>
+                <td class="align-middle">PO Fields</td>
+                <td class="align-middle">Transfer Toggles</td>
+            </tr>
+            <tr>
+                <td>Shipper</td>
+                <td>Consignee</td>
+            </tr>
+            <tr>
+                <td class="md-form align-middle">
+                    <input placeholder="Name: First Last" type="text" id="shipper-name" class="form-control input">
+                        <label for="shipper-name"></label>
+                </td>
+                <td class="md-form align-middle">
+                    <input placeholder="Name: First Last" type="text" id="consignee-name" class="form-control input">
+                    <label for="consignee-name"></label>
+                </td>
+            </tr>
+        </table>
+    </div>
 </div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 </body>
 </html>
