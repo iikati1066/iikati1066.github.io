@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>NewShipment</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/4.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
 </head>
 <body>
 <div class="container-fluid">
@@ -21,7 +22,7 @@
         </div>
 </div>
 
-<div class="row mb-3">
+<div class="row mb-3 bg-primary text-white">
     <div class="col-md-3">
         <nav class="nav flex-column nav-pills nav-fill">
             <a class="nav-link" href="https://iikati1066.github.io/index.html">Home</a>
@@ -43,45 +44,33 @@
     <div class="col-md-3"></div>
 </div>
 
-<div class="col-md-3"></div>
-<div class="col-md-6">
-    <div class="row">
-        <div class="col-md-12 font-weight-bold">Shipment</div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <table class="table">
-                <tr>
-                    <td class="md-form align-middle">
-                        <input placeholder="Select date" type="text" id="date-picker-example" class="form-control input"><label for="date-picker-example"> </label>
-                    </td>
-                    <td class="align-middle">
-                        <img src="https://iikati1066.github.io/img/calendar.png" alt="calendar icon">
-                    </td>
-                    <td class="align-middle">PO Fields</td>
-                    <td class="align-middle">Transfer Toggles</td>
-                </tr>
-            </table>
-        </div>
-    </div>
-    <br>
-    <div class="row">
-        <div class="col-md-6 font-weight-bold">Shipper</div>
-            <table class="table">
-                <tr>
-                     <td class="md-form align-middle"><input placeholder="Name: First Last" type="text" id="shipper-name" class="form-control input"><label for="shipper-name"></label></td>
-                </tr>
-                <tr>
-                    <td class="md-form align-middle"><input placeholder="Plant Name" type="text" id="plant-name" class="form-control input"><label for="plant-name"></label></td>
-                </tr>
-                <tr>
-                    <td class="md-form align-middle"><input placeholder="Street Address" type="text" id="shipper-street-address" class="form-control input"><label for="shipper-street-address"></label></td>
-                </tr>
-            </table>
-        </div>
-    </div>
-    <div class="col-md-6 font-weight-bold">Consignee</div>
+<div class="row mb-3">
     <div class="col-md-3"></div>
+    <div class="col-md-6">
+        <div class="row">
+                <div class="col-md-12 font-weight-bold">Shipment</div>
+        </div>
+        <div class="row">
+                <div class="col-md-12 bg-info">
+                    <table class="table">
+                        <tr>
+                            <td class="md-form align-middle">
+                                <input placeholder="Select date" type="text" id="date-picker-example" class="form-control input"><label for="date-picker-example"> </label>
+                            </td>
+                            <td class="align-middle">
+                                <img src="https://iikati1066.github.io/img/calendar.png" alt="calendar icon">
+                            </td>
+                            <td class="align-middle">PO Fields</td>
+                            <td class="align-middle">Transfer Toggles</td>
+                        </tr>
+                    </table>
+                 </div>
+        </div>
+    <div class="col-md-3"></div>
+</div>
+
+</div>
+
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 </body>

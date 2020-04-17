@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Shipments</title>
+    <link href="https://getbootstrap.com/docs/4.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+</head>
+<body>
+<div class="container-fluid">
+
+<div class="row mb-3">
+    <div class="col-md-4 bg-info">.col-md-4</div>
+    <div class="col-md-4 bg-secondary">.col-md-4</div>
+    <div class="col-md-4 bg-info">.col-md-4</div>
+</div>
+
+<div class="row mb-3">
+    <div class="col-md-4">
+        <nav class="nav flex-column nav-pills nav-fill">
+            <a class="nav-link active" href="https://iikati1066.github.io/index.html">Home</a>
+            <a class="nav-link" href="https://iikati1066.github.io/navigation.html">Navigation</a>
+            <a class="nav-link" href="#">Quick Quote</a>
+            <a class="nav-link" href="#">New Shipments</a>
+            <a class="nav-link" href="#">Track Shipments</a>
+            <a class="nav-link disabled" href="#">Reports</a>
+        </nav>
+    </div>
+    <div class="col-md-8d"><!-- this is the mode toggle for shipment type -->
+        <div class="pb-3">
+            <nav class="nav nav-pills nav-fill">
+                <a class="nav-item nav-link active" href="#">LTL</a>
+                <a class="nav-item nav-link" href="#">Truckload</a>
+                <a class="nav-item nav-link" href="#">Parcel</a>
+                <a class="nav-item nav-link" href="#">International</a>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-md-6 font-weight-bold">Shipper
+                <form>
+                    <div class="form-group row">
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="shipperName"  placeholder="Name" aria-label="Name">
+                        </div>
+                    </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="shipperPlant" placeholder="Plant" aria-label="Plant">
+                        </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="shipperAddress1" placeholder="Address Line 1" aria-label="Address Line 1">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="shipperAddress2" placeholder="Address Line 2" aria-label="Address Line 2">
+                    </div>
+                    <div class="form-group">
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" id="shipperZip" placeholder="Zip" aria-label="Zip">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-8">
+                            <input type="text" class="form-control" id="shipperInputCity" placeholder="City" aria-label="City">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <select id="shipperInputState" class="form-control" aria-label="State">
+                                <option>Choose State</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="row">
+                <div class="col-md-6 font-weight-bold">Consignee &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <form>
+                        <div class="form-group form-group-lg">
+                            <input type="text" class="form-control" id="consigneeName"  placeholder="Name" aria-label="Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="consigneePlant" placeholder="Plant" aria-label="Plant">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="consigneeInputAddress1" placeholder="Address Line 1" aria-label="Address Line 1">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="consigneeInputAddress2" placeholder="Address Line 2" aria-label="Address Line 2">
+                        </div>
+                        <div class="form-group">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="consigneeInputZip" placeholder="Zip"  aria-label="Zip">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-8">
+                                <input type="text" class="form-control" id="consigneeInputCity" placeholder="City" aria-label="City">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <select id="consigneeInputState" class="form-control" aria-label="State">
+                                    <option>Choose State</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+        </div>
+    </div>
+</div>
+
+</div>
+</div>
+</body>
+</html>
