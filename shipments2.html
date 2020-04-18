@@ -10,9 +10,20 @@
 <div class="container-fluid">
 
         <div class="row mb-3">
-            <div class="col-md-4 bg-info">&nbsp;</div>
-            <div class="col-md-4 bg-secondary">&nbsp;</div>
-            <div class="col-md-4 bg-info">&nbsp;</div>
+            <div class="col-md-4">&nbsp;</div>
+            <div class="col-md-4">&nbsp;</div>
+            <div class="col-md-4">
+                <table class="table">
+                    <tr>
+                        <th scope="col" class="float-right">Welcome: Tara Skoglund</th>
+                        <th scope="col">
+                            <div class="text-center">
+                                <img src="https://iikati1066.github.io/img/profile.png" alt="profile link icon">
+                            </div>
+                        </th>
+                    </tr>
+                </table>
+            </div>
         </div>
 
         <div class="row mb-3">
@@ -34,15 +45,45 @@
                         <a class="nav-item nav-link" href="#">Parcel</a>
                         <a class="nav-item nav-link" href="#">International</a>
                     </nav>
+                </div>
+                    <div class="col-md-8 pb-3"><!-- shipment section of page -->
+                        <div class="font-weight-bold">Shipment</div>
+                    </div>
+                    <div class="row pb-3">
+                        <div class="form-row form-inline">
+                            <div class="input-group date" data-provide="datepicker">
+                                <input type="date" class="form-control mb-2 p-2" placeholder="Choose Date" aria-label="dateSelect">
+                                <div class="input-group-addon">
+                                    <!-- <span class="glyphicon glyphicon-th"></span> -->
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control mb-2 p-2" id="inputPO#" placeholder="PO#" aria-label="PO#" >
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control mb-2 p-2" id="inputAC#" placeholder="AC#" aria-label="AC#" >
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control mb-2 p-2" id="inputBillTo" placeholder="Bill To" aria-label="BillTo" >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pb-3">
+                        <div class="col-md-6 font-weight-bold">Shipper</div>
+                        <div class="col-md-6 font-weight-bold">Consignee</div>
+                    </div>
+                    <form>
+                    <div class="row pb-3">
+                        <div class="col-md-6"><input type="text" class="form-control" id="shipperName"  placeholder="Name" aria-label="ShipperName"></div>
+                        <div class="col-md-6"><input type="text" class="form-control" id="consigneeName"  placeholder="Name" aria-label="ConsigneeName"></div>
+                    </div>
+                        <div class="row pb-3">
+                            <div class="col-md-6"><input type="text" class="form-control" id="shipperPlant"  placeholder="Plant" aria-label="ShipperPlant"></div>
+                            <div class="col-md-6"><input type="text" class="form-control" id="consigneePlant"  placeholder="Plant" aria-label="ConsigneePlant"></div>
+                        </div>
+                    </form>
             </div>
-            <div class="row">
-                <div class="col-md-6 font-weight-bold">Shipper</div>
-                <div class="col-md-6 font-weight-bold">Consignee</div>
             </div>
-
-            </div>
-        </div>
-
 </div>
 </body>
 </html>
